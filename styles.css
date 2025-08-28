@@ -3,7 +3,14 @@
 
 html,body{
     overflow-x:hidden ;
-    max-width: 100%;}
+    max-width: 100%;}  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+
 .body{
     text-align:center;
   width:100%;
@@ -12,11 +19,9 @@ html,body{
   margin:auto;
   background-color: #ffffff;
   color: #f5f6f7;
-  font-family: Tahoma;
+  font-family: Tahoma;  
+}  
 
-  
-}
-    
 #image10{
   height: 500px;
   width:1;
@@ -39,9 +44,6 @@ html,body{
   padding: auto;
 
 }
-
-
-
 h3{color: #000000;
     text-align:center;
     margin-top:2px;
@@ -51,15 +53,6 @@ h3{color: #000000;
 .p-word{
   font-family:tahoma;
   font-size:0.7em
-}
-.word1{
-
-
-}
-
-.word2{
-
-
 }
 
 
@@ -79,9 +72,6 @@ h3{color: #000000;
    margin-right: 45px;
 }
 
-
-
-
 .first{
 
    
@@ -99,8 +89,6 @@ h3{color: #000000;
     color:rgb(122, 7, 7);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-
-
 
 h2{
 font-family: sans-serif;
@@ -128,17 +116,14 @@ font-size: 1.5em;
 }
 
 .frame{
-    display:flex;
-    margin:auto;  
+
     margin-bottom: 30px; 
-     
-       
+         
 }
 
 .btn1{
-    margin-right: 45px;
-    margin-left:23em;
-    width:140px;
+  float:left;
+    margin-right: 100px;
     color:white;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding:10px; 
@@ -148,17 +133,13 @@ font-size: 1.5em;
 }
 
 .btn2{
-
-margin-left:14em;
-width:140px;
+float:right;
+margin-left:14em; 
 padding:9px;
 border-radius: 12px;
 background:linear-gradient(90deg,
 rgb(190, 37, 63),rgb(255, 0, 0)); 
 }
-
-
-
 
 h4{
 color:black;}
@@ -166,8 +147,8 @@ color:black;}
 
 .container{
 height: 270px;
-text-align: center;
-margin:46px;
+ align-items: center;
+margin: auto;
 margin-bottom:30px;
 width: auto;
 border-style:groove;
@@ -175,21 +156,28 @@ padding:20px;
 padding-bottom: 40px; 
 }
 
+  .image1{
+    display:flex;
+    margin-left: 34px;
+  justify-content: space-around;
+      padding: 20px;
 
+}
+  img2{ margin-right: 46px;}
+
+  img3{margin-right: 46px;}
+  
+  img4{margin-right:46px;}
 
 .rect{
   height: 250px;
   text-align: center;
-  margin: 45px;;
+  margin: auto;
   margin-bottom: 20px;
   width: auto;
   padding-bottom: 20px;
   border:2px solid black;
-  }
-
-
-
-    
+  } 
 img{
     
     height: 40px;
@@ -197,16 +185,6 @@ img{
     border-radius: 50px;    
 }
 
-  .image1{
-    display:flex;
-  
-}
-
-  .img2{ margin-right: 46px;}
-
-  .img3{margin-right: 46px;}
-  
-  .img4{margin-right:46px;}
 
 h1{
     color: #000000;
@@ -231,15 +209,15 @@ P{
 
 a:link{
     height: 4px;
-    background-color:rgb(114, 104, 104);
-    border:none solid white;
+    background-color:rgb(245, 245, 245);
+    border: solid rgb(0, 0, 0);
     border-radius: 4px;
     text-decoration: none;
     margin: -4 auto;
     padding:7px 15px;
     color:rgb(0, 0, 0);
     font-family:arial black;
-    font-size: 10px;}
+    font-size: 10pxs;}
 
 .canvas {
     width: 506px;
@@ -293,8 +271,6 @@ input{
     border:white;
     color:white;}
 
-  
-
 .sub1{
     background-color: rgb(231, 215, 195);
     margin-bottom:-555px;
@@ -311,8 +287,6 @@ input{
     color:transparent;
     font-style: inherit;
 }
-
-
 
 #f{ margin-right: 40px;}
 
