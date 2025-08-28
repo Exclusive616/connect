@@ -57,18 +57,24 @@ h3{color: #000000;
 .homebutton{
     display: flex;
     margin-bottom: 10px;
-}
-
-#image01{
-    margin-left: 45px;
-    left:5%;
+    
+    
 }
 
 #image0{
+    margin-left: 4px;
+    left:5%;
+    margin-right: 70%;
+}
+
+#image01{
+  right: 4%;
+}
+
+image01{
   right: 4%;
    position: absolute;
 }
-
 
 .first{
     font-size: 1.5em;
