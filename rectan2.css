@@ -4,6 +4,14 @@ html,body{
     background-color:rgb(238, 227, 227)
 
 }
+html,body{
+    overflow-x:hidden ;}  
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+    
+}
 
 h4{
     text-align: center;
@@ -19,9 +27,9 @@ font-family:Tahoma, sans-serif;
 
 }
 
-
 .container{
 background-color:white;
+
     margin:auto;
     padding:50px;
     text-align: left;
@@ -30,10 +38,9 @@ background-color:white;
     border-radius:23px;
     width:auto;
     display:inline-flexbox;
-    margin-bottom: 45px;
+    margin-bottom: 30px;
     height: 60px;
     align-items: right;
-
 }
  
 h1{

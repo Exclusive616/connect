@@ -48,7 +48,7 @@ body{
     width: 200px;
    outline:none;
    color:white;
-   margin-left:-80PX;
+   margin-left:-60PX;
    cursor:pointer;
    font-size:1em;
    font-weight:px;
@@ -64,7 +64,7 @@ body{
     width: 200px;
    outline:none;
    color:white;
-   margin-left:-80PX;
+   margin-left:-60PX;
    cursor:pointer;
    font-size:1em;
    font-weight:px;
@@ -235,4 +235,5 @@ h1{text-align: center;}
     background-color:rgb(237, 225, 243);
     color: black;
     margin-top: 60px;
+    text-decoration: none;
 }

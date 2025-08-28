@@ -38,6 +38,7 @@ html,body{
   font-size: 1.4em;
   text-align:justify;
   margin: auto;
+  margin-top: 20px;
   padding:2px;
 
 }
@@ -55,7 +56,7 @@ h3{color: #000000;
 
 .homebutton{
     display: flex;
-    border-radius:none;
+    margin-bottom: 10px;
 }
 
 #image01{
@@ -70,12 +71,11 @@ h3{color: #000000;
 
 
 .first{
-
-   
-    font-size: 1.8em;
+    font-size: 1.5em;
     border-radius: 45px;
-    width: 100%;
+    width: 80%;
     margin: auto;
+    padding:10px;
     background:linear-gradient(90deg,
     rgb(87, 87, 221),rgb(175, 166, 166)); 
     color:transparent;
@@ -134,8 +134,8 @@ margin-bottom: 10px;
 
 .btn2{
 float:right;
-margin-right:20px; 
-padding:9px;
+margin-right:25px; 
+padding:10px;
 border-radius: 12px;
 background:linear-gradient(90deg,
 rgb(190, 37, 63),rgb(255, 0, 0)); 
