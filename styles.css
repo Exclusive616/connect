@@ -1,6 +1,9 @@
 
 *{box-sizing:border-box}
 
+html,body{
+    overflow-x:hidden ;
+    max-width: 100%;}
 .body{
     text-align:center;
   width:100%;
@@ -173,12 +176,13 @@ padding-bottom: 40px;
 }
 
 
+
 .rect{
   height: 250px;
   text-align: center;
   margin: 45px;;
   margin-bottom: 20px;
-  width: 100%;
+  width: auto;
   padding-bottom: 20px;
   border:2px solid black;
   }
@@ -195,9 +199,6 @@ img{
 
   .image1{
     display:flex;
-    width:auto;
-  margin: auto;
-  margin-left: 30em;
   
 }
 
@@ -206,8 +207,6 @@ img{
   .img3{margin-right: 46px;}
   
   .img4{margin-right:46px;}
-
-
 
 h1{
     color: #000000;
@@ -294,16 +293,7 @@ input{
     border:white;
     color:white;}
 
-    #image2{
-  height: 400px;
-    width:50%;
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 40px;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    max-width: 100%;}
+  
 
 .sub1{
     background-color: rgb(231, 215, 195);
