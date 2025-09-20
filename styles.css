@@ -1,5 +1,16 @@
 
-*{box-sizing:border-box}
+html,body{
+    overflow-x:hidden ;
+    max-width: 100%;
+    scroll-behavior: smooth;}
+   
+  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
 
 .body{
     text-align:center;
@@ -9,32 +20,30 @@
   margin:auto;
   background-color: #ffffff;
   color: #f5f6f7;
-  font-family: Tahoma;
+  font-family: Tahoma;  
 
-  
 }
-    
+ 
+
 #image10{
-  height: 500px;
-  width:1;
+  height: 250px;
   display:block;
   margin-left: auto;
   margin-right: auto;
   border-radius: 40px;
   margin-top: 60px;
   margin-bottom: 60px;
-  max-width: 100%;
+  max-width: 80%;
 }
+.general-text {
 
-.general-text{
- 
   color: black;
-  font-family:tahoma;
+  font-family: tahoma;
   font-size: 1.4em;
-  text-align:justify;
-  margin: auto;
-  padding: auto;
+  text-align: justify;
 
+  margin-top: 20px;
+  padding: 10px;
 }
 
 
@@ -47,45 +56,38 @@ h3{color: #000000;
 
 .p-word{
   font-family:tahoma;
-  font-size:0.7em
-}
-.word1{
-
-
-}
-
-.word2{
-
-
+  font-size:0.7em;
 }
 
 
 .homebutton{
     display: flex;
-    border-radius: none;
-}
-
-#image01{
-    margin-left: 45px;
-    left:5%;
+    margin-bottom: 10px;
+    
+    
 }
 
 #image0{
-  right: 4%;
-   position: absolute;
-   margin-right: 45px;
+    margin-left: 4px;
+    left:5%;
+    margin-right: 70%;
 }
 
+#image01{
+  right: 4%;
+}
 
-
+image01{
+  right: 4%;
+   position: absolute;
+}
 
 .first{
-
-   
-    font-size: 1.8em;
+    font-size: 1.5em;
     border-radius: 45px;
-    width: 100%;
+    width: 80%;
     margin: auto;
+    padding:10px;
     background:linear-gradient(90deg,
     rgb(87, 87, 221),rgb(175, 166, 166)); 
     color:transparent;
@@ -95,9 +97,8 @@ h3{color: #000000;
 .PEOPLE-POWERED{
     color:rgb(122, 7, 7);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding:2px;
 }
-
-
 
 h2{
 font-family: sans-serif;
@@ -112,7 +113,9 @@ font-family:Verdana, Geneva, Tahoma, sans-serif;
 
 p{ text-align: center;
 font-family:Georgia, 'Times New Roman', Times, serif;
-font-size: 1.5em;
+padding:10px;
+
+margin-bottom: 10px;
 }
 
 .shine{
@@ -125,17 +128,14 @@ font-size: 1.5em;
 }
 
 .frame{
-    display:flex;
-    margin:auto;  
-    margin-bottom: 30px; 
-     
-       
+
+    margin-bottom: 35px; 
+        
 }
 
 .btn1{
-    margin-right: 45px;
-    margin-left:23em;
-    width:140px;
+  float:left;
+    margin-left:20px;
     color:white;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding:10px; 
@@ -145,68 +145,74 @@ font-size: 1.5em;
 }
 
 .btn2{
-
-margin-left:14em;
-width:140px;
-padding:9px;
+float:right;
+margin-right:25px; 
+padding:10px;
 border-radius: 12px;
 background:linear-gradient(90deg,
 rgb(190, 37, 63),rgb(255, 0, 0)); 
 }
 
-
-
-
 h4{
-color:black;}
+color:black;
+text-align:center;
+}
 
 
 .container{
 height: 270px;
-text-align: center;
-margin:46px;
+ align-items: center;
+margin: auto;
 margin-bottom:30px;
 width: auto;
 border-style:groove;
+margin-left: 20px;
+margin-right: 20px;
 padding:20px;
 padding-bottom: 40px; 
 }
 
+a:link{
+    height: 4px;
+    background-color:rgb(245, 245, 245);
+    border: solid rgb(0, 0, 0);
+    border-radius: 4px;
+    text-decoration: none;
+    padding:8px;
+    margin-top: 15px; 
+    color:rgb(0, 0, 0);
+    font-family:arial black;
+    font-size: 10pxs;}
+   
+  .image1{
+    display:flex;
+  justify-content: space-around;
+
+
+}
+  img2{ margin-right: 46px;}
+
+  img3{margin-right: 46px;}
+  
+  img4{margin-right:46px;}
 
 .rect{
   height: 250px;
   text-align: center;
-  margin: 45px;;
+  margin: auto;
   margin-bottom: 20px;
-  width: 100%;
+  width: auto;
   padding-bottom: 20px;
   border:2px solid black;
-  }
-
-
-
-    
+  margin-left: 20px;
+  margin-right: 20px;
+  } 
 img{
     
     height: 40px;
     margin-top:14px;
     border-radius: 50px;    
 }
-
-  .image1{
-    display:flex;
-    width:auto;
-  margin: auto;
-  margin-left: 30em;
-  
-}
-
-  .img2{ margin-right: 46px;}
-
-  .img3{margin-right: 46px;}
-  
-  .img4{margin-right:46px;}
-
 
 
 h1{
@@ -230,17 +236,7 @@ P{
     border-radius: 50px;}
 
 
-a:link{
-    height: 4px;
-    background-color:rgb(114, 104, 104);
-    border:none solid white;
-    border-radius: 4px;
-    text-decoration: none;
-    margin: -4 auto;
-    padding:7px 15px;
-    color:rgb(0, 0, 0);
-    font-family:arial black;
-    font-size: 10px;}
+
 
 .canvas {
     width: 506px;
@@ -294,17 +290,6 @@ input{
     border:white;
     color:white;}
 
-    #image2{
-  height: 400px;
-    width:50%;
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 40px;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    max-width: 100%;}
-
 .sub1{
     background-color: rgb(231, 215, 195);
     margin-bottom:-555px;
@@ -322,27 +307,41 @@ input{
     font-style: inherit;
 }
 
-
-
 #f{ margin-right: 40px;}
 
 #d{margin-right: 40px;}
   
   #x{margin-right:40px;}
 
-  
-  #image7{
- 
- 
-  display:block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 60px;
-  margin-bottom: 60px;
-  max-width: 100%;}
-
 .footer2{   
 text-align: center;
 padding-top: 5em;
 
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 18px;
+    background: lightblue;
+  }
+  .homebutton {
+    display: flex;
+    margin-bottom: 10px;
+}
+#image01{
+margin-left: 78px;
+
+}
+#image0{
+margin-left: 40px;
+
+}
+}
+
+@media (min-width: 477px) {
+.PEOPLE-POWERED {
+    color: rgb(122, 7, 7);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2px;
+}
 }
