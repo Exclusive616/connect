@@ -19,10 +19,10 @@ h1{
 }
 
 input{
-   border-style: groove;
-   margin-bottom:50px ;
-   margin-top:50px ;
-   display: block;
+    border-style: groove;
+    margin-bottom:50px ;
+    margin-top:50px ;
+    display: block;
     background:linear-gradient(190deg,
     rgb(232, 232, 238),rgb(255, 255, 255));  
     font-style: inherit;
@@ -32,29 +32,44 @@ input{
     height: 50px;
     padding-right: 90px;
     padding-top: 80px;
-  padding-left: 90px;
+    padding-left: 90px;
     padding-bottom: 80px;
     margin-left: auto;
-     margin-right: auto;
+    margin-right: auto;
     width: 50%;
-   text-align: center;     /* text & placeholder start from left */
-    padding-left: 30px;
-   
+    text-align: center;   
+    padding-left: 70px;   
 }
+
+input::placeholder {
+  color: gray;           
+  font-weight: bold;     
+  text-align: center;  
+  overflow-wrap: wrap;   
+}
+
 @media only screen and (max-width: 430px) {
    input::placeholder {
-  color: gray;         /* change text color */
-  font-size: 0.6em;     /* change font size */
-  font-style: italic;  /* make italic */
+  color: gray;         
+  font-size: 0.6em; 
+  font-style: italic;  
   opacity: 1;  
   margin-left: -100px;
-   text-align: center;     /* text & placeholder start from left */
-    padding-left: -30px;          /* ensure full visibility */
+   text-align: center;   
+    padding-left: -30px;     
 }
+.footer .dec2 {
+    font-size: 1em;
+    color: rgb(63, 36, 219);
+    margin: 15px auto;
+    text-align: center;
+
+}
+
 }
 
 
-button{
+.button1{
     display: block;
     width: 300px;
     margin: 1em auto;
@@ -62,11 +77,11 @@ button{
     font-size: 1.1rem;
     margin-bottom: 45px;
     border-radius: 30px;
-    border-color: rgb(4, 42, 255);
     background:linear-gradient(190deg,
     rgb(9, 9, 199),rgb(47, 0, 255)); 
     -webkit-background-clip: text;
     color:transparent;
+     border:4px solid rgb(33, 122, 173);
   }
 
 
@@ -79,13 +94,6 @@ button{
     margin-right: auto;
     width: 500px;
   }
-  
-  #terms{
-    margin: auto;
-    background-color: red;
-  }
-  a{color:#000000;
-text-decoration: none;}
   
 #img4{
     display: block;
@@ -132,11 +140,74 @@ text-decoration: none;}
   margin-top: -30px;
   margin-bottom: 50px;
 } 
-.footer{
+/* Footer */
+.footer {
+    background-color: rgb(231, 215, 195);
     text-align: center;
-    background-color:rgb(237, 225, 243);
-    color: black;
-    margin-top: 60px;
-    margin: auto;
+    padding: 20px;
+}
 
+.footer .dec {
+    font-size: 2em;
+    font-weight: bold;
+    background: linear-gradient(90deg, rgb(255, 251, 0), rgb(1, 37, 241));
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 10px;
+}
+
+.footer .dec2 {
+    font-size: 1em;
+    color: rgb(63, 36, 219);
+    margin: 15px auto;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+
+.dec3 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dec3 h3{
+
+margin-top: 35px;
+}
+
+
+textarea{
+    width: 80%;
+    max-width: 350px;
+    border-radius: 20px;
+    padding: 10px 10px 5px 5px;
+    margin-bottom: 23px;
+    font-size: 1rem;
+    border: none;
+    text-align: center;
+    color: white;
+    background-color:white;
+      border:1px solid rgb(33, 122, 173);
+}
+
+
+button{
+    background-color: #2f00ff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    color: white;
+    padding: 8px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border:1px solid rgb(33, 122, 173);
+}
+
+/* Links */
+a:link, a:visited {
+    text-decoration: none;
+    color: inherit;
 }
