@@ -39,7 +39,7 @@ h4 {
     display: flex;             /* flexbox instead of inline-flexbox */
     align-items: center;
     justify-content: flex-start;
-    gap: 15px;                 /* space between image and text */
+    gap: 150px;                 /* space between image and text */
     height: auto;
     min-height: 70px;
 }
@@ -51,7 +51,7 @@ h4 {
     object-fit: cover;
 }
 
-/* Wallet names */
+
 h1 {
     margin: 0;
     font-size: 1.2em;
@@ -111,6 +111,7 @@ p {
     font-size: 1em;
     color: rgb(241, 88, 88);
     margin: 15px auto;
+    text-align: center;
 }
 
 /* Subscribe section */
